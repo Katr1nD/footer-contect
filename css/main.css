@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -5,11 +7,59 @@ body {
 
 .contacts-block {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     background-image: url('../img/img.png');
+    font-family: Raleway;
+    font-size: 17px;
     width: 1500px;
     height: 866px;
 }
 
-h1 {
+.title h1 {
     margin: 0;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.title p {
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
+    width: 350px;
+    line-height: 25px;
+}
+
+.all-contacts {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 165px;
+}
+
+.form-line {
+    padding: 0;
+    background-color: rgba(0, 196, 196, 0.5);
+    border: none;
+
+}
+
+input {
+    margin-bottom: 15px;
+    height: 50px;
+}
+
+textarea {
+    height: 250px;
 }
