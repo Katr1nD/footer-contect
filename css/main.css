@@ -52,7 +52,6 @@ body {
     padding: 0;
     background-color: rgba(0, 196, 196, 0.5);
     border: none;
-
 }
 
 input {
@@ -62,4 +61,22 @@ input {
 
 textarea {
     height: 250px;
+}
+
+.contact-information {
+    margin-right: 350px;
+    font-size: 20px;
+}
+
+.contact-information h6 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-information p {
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 25px;
 }
