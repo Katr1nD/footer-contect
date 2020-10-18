@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contacts-block {
+    margin: 0 auto;
+    background-image: url('../img/img.png');
+    width: 1500px;
+    height: 866px;
+}
+
+h1 {
+    margin: 0;
+}
