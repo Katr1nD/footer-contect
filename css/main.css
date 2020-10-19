@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Raleway;
 }
 
 .contacts-block {
@@ -12,7 +13,6 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-image: url('../img/img.png');
-    font-family: Raleway;
     font-size: 17px;
     width: 1500px;
     height: 866px;
@@ -44,6 +44,7 @@ body {
 .form {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 500px;
     margin-left: 165px;
 }
@@ -52,6 +53,9 @@ body {
     padding: 0;
     background-color: rgba(0, 196, 196, 0.5);
     border: none;
+    font-size: 15px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
 input {
@@ -61,6 +65,7 @@ input {
 
 textarea {
     height: 250px;
+    padding-top: 50px;
 }
 
 .contact-information {
@@ -79,4 +84,21 @@ textarea {
     margin: 0;
     margin-bottom: 10px;
     line-height: 25px;
+}
+
+.right-reserved {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1500px;
+    height: 90px;
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+
+.right-reserved span {
+    color: #ff2b58;
 }
