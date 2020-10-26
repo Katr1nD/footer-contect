@@ -75,6 +75,10 @@ input {
     height: 50px;
 }
 
+input[type='email'] {
+    appearance: none;
+}
+
 textarea {
     height: 250px;
     box-sizing: border-box;
